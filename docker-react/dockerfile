@@ -1,0 +1,20 @@
+# Imagem base com Node.js
+FROM node:23-slim
+
+# Diretório de trabalho no container
+WORKDIR /app
+
+# Copia arquivos de dependência
+COPY package*.json ./
+
+# Instala dependências
+RUN npm install
+
+# Copia o restante do código
+COPY . .
+
+# Expõe a porta usada pelo Vite
+EXPOSE 5173
+
+# Comando de desenvolvimento
+CMD ["npm", "run", "dev", "--", "--host"]
