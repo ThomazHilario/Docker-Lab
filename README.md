@@ -8,16 +8,16 @@
 - Porem com o docker, como a aplicação vai ser virtualizada e terá um ambiente totalmente configurado/virtualizado para executar a aplicação não haverá  problemas em executar a aplicação pois tudo com base em versões e dependências estarão já configurados e prontos para a execução.
 
 # Conceitos Básicos:
-## DockerFiles
+## DockerFile
 - Arquivo que terá na aplicação com todas as configurações necessárias para criar a imagem no docker.
 
-## Conainers
+## Container
 - Instancia de uma imagem.
 - Ambiente executando.
 - Quando criamos um container iniciamos um processo na máquina hospedeira.
 - Caso não tenha nenhum processo rodando dentro de um container ele será encerrado.
 
-## Imagens
+## Imagem
 - Uma imagem do docker ela vai conter tudo que é necessário para executar a aplicação.
 
 ## Registros
