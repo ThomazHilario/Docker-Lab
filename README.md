@@ -40,4 +40,4 @@
 - Podemos interagir com um container utilizando:
 ` docker exec -iti container-id (processo que ira rodar no container, Ex: bash) `
 - Comandos de build de uma aplicação, cria uma imagem em relação a um arquivo de dockerfile:
-` docker build -t nome-da-imagem `
+` docker build -t nome-da-imagem . `
